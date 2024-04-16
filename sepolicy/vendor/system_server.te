@@ -11,3 +11,7 @@ get_prop(system_server, userspace_reboot_config_prop);
 
 # vibrator
 allow system_server sysfs_vibrator:file read;
+
+# Camera
+get_prop(system_server, vendor_camera_prop)
+get_prop(system_server, vendor_persist_camera_prop)

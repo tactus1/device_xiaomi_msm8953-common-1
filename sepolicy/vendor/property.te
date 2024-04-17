@@ -1,11 +1,9 @@
+# vendor_persist_camera_prop
+type vendor_persist_camera_prop, property_type, extended_core_property_type;
+
 # Dirac
 system_public_prop(dirac_prop)
 
 # Fingerprint
 vendor_restricted_prop(vendor_fp_prop)
 
-# Camera
-vendor_persist_camera_prop(vendor_camera_prop)
-
-# Extended_Core
-extended_core_property_type
